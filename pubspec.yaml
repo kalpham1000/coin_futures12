@@ -1,0 +1,33 @@
+name: coin_futures
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # ✅ 실시간 통신용 WebSocket 패키지
+  web_socket_channel: ^2.4.0
+
+  # ✅ 상태 관리용 Provider
+  provider: ^6.1.2
+
+  # ✅ HTTP 요청용 (코인 이미지용 API 연동 시 사용)
+  http: ^1.1.0  # 버전 업데이트
+
+  # ✅ 로컬 저장소 (관심코인 저장 등)
+  shared_preferences: ^2.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
